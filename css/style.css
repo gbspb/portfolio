@@ -212,7 +212,7 @@ h6 {
   gap: 1%;
 }
 #about .knowledge .techs {
-  background-color: #121212;
+  background-color: #282828;
   max-width: 310px;
   display: flex;
   margin-top: 1%;
@@ -239,7 +239,7 @@ h6 {
   gap: 2%;
 }
 #about .qualifications .courses {
-  background-color: #121212;
+  background-color: #282828;
   max-width: 400px;
   padding: 30px;
   text-align: center;
@@ -268,7 +268,7 @@ h6 {
   gap: 3%;
 }
 .projects .frame {
-  background-color: #121212;
+  background-color: #282828;
   max-width: 470px;
   padding-top: 10px;
   margin-top: 3%;
@@ -298,7 +298,7 @@ h6 {
 }
 
 .contact {
-  background-color: #121212;
+  background-color: #282828;
   max-height: 1440px;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -345,7 +345,7 @@ h6 {
 }
 
 footer {
-  background-color: #121212;
+  background-color: #282828;
   height: 80px;
   padding-left: 7.5%;
   padding-right: 7.5%;
