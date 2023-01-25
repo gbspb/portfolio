@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--CSS Lib Animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--CSS Custom-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./img/favicon3.svg" type="image/x-icon">
+    <title>Gabriela Sperb - Front-End Developer</title>
+</head>
+
+<body class="bg">
+    <!--navbar-->
+    <nav id="start" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img class="brand" src="./img/gabriela-sperb.svg" alt="Gabriela Sperb">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#start" class="nav-link" aria-current="page">início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">conhecimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/navbar-->
+
+    <!--home-->
+    <div class="container text-center" id="home">
+        <div class="row home">
+            <div class="avatar col">
+                <img src="./img/gs-avtr.jpg" alt="Avatar Gabriela Sperb">
+            </div>
+            <div class="col hi">
+                <h1 class="title">Olá, pode me chamar de Gabi</h1>
+                <h2 class="subtitle">Desenvolvedora Web Front-End</h2>
+                <p>Meu nome é Gabriela Sperb, sou bacharel em design de moda e especialista em design thinking.</p>
+                <p>Há pouco venho migrando para o desenvolvimento web, estudando atravéz de cursos e eventos
+                    disponibilizados na web. Atualmente meu foco está nas tecnologias voltadas ao front-end, porém,
+                    tenho como objetivo me tornar desevolvedora web full stack. </p>
+            </div>
+        </div>
+    </div>
+    <!--/home-->
+
+    <!--about-->
+    <section id="about">
+        <div>
+            <h1 class="category text-center">Conhecimento</h1>
+        </div>
+        <div class="knowledge container">
+            <div class="techs">
+                <div class="image">
+                    <img data-aos="zoom-in-down" data-aos-duration="1000" src="./img/knowledge/html.svg" alt="HTML">
+                </div>
+                <div class="card-body small">
+                    <h5 data-aos="fade-left" data-aos-duration="500">HTML</h5>
+                    <p data-aos="fade-left" data-aos-duration="1500" class="card-text">Estruturação do documento html,
+                        tags e atributos, listas, tabelas, forms e inputs. Organização com divs e span e elementos
+                        semânticos.</p>
+                </div>
+            </div>
+            <div class="techs">
+                <div class="image">
+                    <img data-aos="zoom-in-down" data-aos-duration="1500" src="./img/knowledge/css.svg" alt="CSS">
+                </div>
+                <div class="card-body small">
+                    <h5 data-aos="fade-left" data-aos-duration="1000">CSS</h5>
+                    <p data-aos="fade-left" data-aos-duration="2000" class="card-text">Cores, fontes, background,
+                        inspeção e box model. Responividade, media query, flexbox, grid, manipulação de
+                        linhas e colunas.</p>
+                </div>
+            </div>
+            <div class="techs">
+                <div class="image">
+                    <img data-aos="zoom-in-down" data-aos-duration="2000" src="./img/knowledge/js.svg" alt="JavaScript">
+                </div>
+                <div class="card-body small">
+                    <h5 data-aos="fade-left" data-aos-duration="1500">JavaScript</h5>
+                    <p data-aos="fade-left" data-aos-duration="2500" class="card-text">Lógica de programação, interação
+                        com elementos no DOM, módulos, npx e scripts npm. Tratamento de erros, promises e apis
+                        restfull.</p>
+                </div>
+            </div>
+            <div class="techs">
+                <div class="image">
+                    <img data-aos="zoom-in-down" data-aos-duration="2500" src="./img/knowledge/react.svg" alt="CSS">
+                </div>
+                <div class="card-body small">
+                    <h5 data-aos="fade-left" data-aos-duration="2000">React</h5>
+                    <p data-aos="fade-left" data-aos-duration="3000" class="card-text">Components, props e eventos.
+                        Renderização condicional e de múltiplos components. Estados, classes, lifecycle, hooks, telas e
+                        rotas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1 class="category text-center">Qualificações</h1>
+        </div>
+        <div class="qualifications container">
+            <div class="courses">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <h6>Udemy</h6>
+                    <h5>Desenvolvimento Web Completo</h5>
+                    <p class="small">Do front ao back-end e banco de dados.<br> Duração total: 114h. Concluída a
+                        parte
+                        de front-end.</p>
+                    <a href="https://www.udemy.com/course/web-completo/" target="_blank" class="btn">saiba mais</a>
+                </div>
+            </div>
+            <div class="courses">
+                <div data-aos="zoom-in" data-aos-duration="2000">
+                    <h6>OneBitCode</h6>
+                    <h5>Programador Full Stack JavaScript</h5>
+                    <p class="small">Do básico ao profissional com mais de 60h de duração. Concluída somente a parte de
+                        front-end.</p>
+                    <a href="https://programador.onebitcode.com/" target="_blank" class="btn">saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/about-->
+
+    <!--projects-->
+    <section id="projects">
+        <div>
+            <h1 class="category text-center">Projetos</h1>
+        </div>
+        <div class="projects">
+            <div class="frame">
+                <h6 class="text-center">OneBitX</h6>
+                <p class="text-center">
+                    <a href="https://gbspb.github.io/OneBitX/" target="_blank">
+                        <img data-aos="zoom-in" data-aos-duration="1000" class="thumb" src="./img/projects/spacex.jpg"
+                            alt="Interface inspirada na SpaceX">
+                    </a>
+                </p>
+                <a class="btn small" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false"
+                    aria-controls="collapse1">
+                    saiba mais
+                </a>
+                </p>
+                <div class="collapse small" id="collapse1">
+                    <ul>
+                        <li>Projeto realizado dentro do curso da OneBitCode</li>
+                        <li>Site responsivo com uso de biblioteca de animação</li>
+                        <li>Possui mais 2 páginas linkadas na barra de navegação</li><br>
+                        <li><a class="repository" href="https://github.com/gbspb/OneBitX"
+                                target="_blank">repositório</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame">
+                <h6 class="text-center">Rumo a Marte</h6>
+                <p class="text-center">
+                    <a href="https://gbspb.github.io/landing-page-obc/" target="_blank">
+                        <img data-aos="zoom-in" data-aos-duration="1000" class="thumb"
+                            src="./img/projects/landing-page.jpg" alt="Interface inspirada na SpaceX">
+                    </a>
+                </p>
+                <a class="btn small" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false"
+                    aria-controls="collapse2">
+                    saiba mais
+                </a>
+                </p>
+                <div class="collapse small" id="collapse2">
+                    <ul>
+                        <li>Landing page realizada dentro do curso da OneBitCode</li>
+                        <li>Manipulação do DOM</li>
+                        <li>Página responsiva</li><br>
+                        <li><a class="repository" href="https://github.com/gbspb/landing-page-obc"
+                                target="_blank">repositório</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame">
+                <h6 class="text-center">Site inspirado no Spotify</h6>
+                <p class="text-center">
+                    <a href="https://gbspb.github.io/spotify-inspo-interface/" target="_blank">
+                        <img data-aos="zoom-in" data-aos-duration="1000" class="thumb" src="./img/projects/spotify.jpg"
+                            alt="Interface inspirada no Spotify">
+                    </a>
+                </p>
+                <a class="btn small" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false"
+                    aria-controls="collapse3">
+                    saiba mais
+                </a>
+                </p>
+                <div class="collapse small" id="collapse3">
+                    <ul>
+                        <li>Projeto realizado durante o curso da Udemy</li>
+                        <li>Efeito parallax</li>
+                        <li>Página responsiva</li><br>
+                        <li><a class="repository" href="https://github.com/gbspb/spotify-inspo-interface"
+                                target="_blank">repositório</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame">
+                <h6 class="text-center">Finans</h6>
+                <p class="text-center">
+                    <a href="https://gbspb.github.io/finans/" target="_blank">
+                        <img data-aos="zoom-in" data-aos-duration="1000" class="thumb" src="./img/projects/finans.jpg"
+                            alt="Interface para o setor financeiro">
+                    </a>
+                </p>
+                <a class="btn small" data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false"
+                    aria-controls="collapse4">
+                    saiba mais
+                </a>
+                </p>
+                <div class="collapse small" id="collapse4">
+                    <ul>
+                        <li>Projeto realizado durante o curso da Udemy</li>
+                        <li>Site responsivo para instituição financeira</li>
+                        <li>Exercício de Bootsrap</li><br>
+                        <li><a class="repository" href="https://github.com/gbspb/finans" target="_blank">repositório</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame">
+                <h6 class="text-center">Calculadora</h6>
+                <p class="text-center">
+                    <a href="https://gbspb.github.io/calc.js/" target="_blank">
+                        <img data-aos="zoom-in" data-aos-duration="1000" class="thumb" src="./img/projects/calc.jpg"
+                            alt="Calculadora com JavaScript">
+                    </a>
+                </p>
+                <a class="btn small" data-bs-toggle="collapse" href="#collapse5" role="button" aria-expanded="false"
+                    aria-controls="collapse5">
+                    saiba mais
+                </a>
+                </p>
+                <div class="collapse small" id="collapse5">
+                    <ul>
+                        <li>Projeto realizado dentro do curso da OneBitCode</li>
+                        <li>Exercício de JavaScript</li>
+                        <li>Alteração entre tema claro/escuro</li><br>
+                        <li><a class="repository" href="https://github.com/gbspb/calc.js"
+                                target="_blank">repositório</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="frame">
+                <h6 class="text-center">Troca de cor de fundo</h6>
+                <p class="text-center">
+                    <a href="https://gbspb.github.io/bg-color-changer/" target="_blank">
+                        <img data-aos="zoom-in" data-aos-duration="1000" class="thumb"
+                            src="./img/projects/bg-color-changer.jpg" alt="Troca de cor de fundo com JavaScript">
+                    </a>
+                </p>
+                <a class="btn small" data-bs-toggle="collapse" href="#collapse6" role="button" aria-expanded="false"
+                    aria-controls="collapse6">
+                    saiba mais
+                </a>
+                </p>
+                <div class="collapse small" id="collapse6">
+                    <ul>
+                        <li>Página com botão que altera a cor do background</li>
+                        <li>Realizado atravéz de um desafio encontrado na web</li><br>
+                        <li><a class="repository" href="https://github.com/gbspb/bg-color-changer"
+                                target="_blank">repositório</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/projects-->
+
+    <!--contact-->
+    <div id="contact" class="container text-center mt-5 mb-5">
+        <div class="contact">
+            <div class="contact-text">
+                <h3 data-aos="fade-right" data-aos-duration="500" class="h1smaller text-start mt-5">Vamos
+                    trabalhar
+                    juntos no seu próximo projeto ;)</h3>
+                <p data-aos="fade-up" data-aos-duration="1500" class="card-text mb-5 mt-1 pe-5 text-start small">Todo o
+                    processo de criação e desenvolvimento será acompanhado de perto por você. Entre em contato clicando
+                    ao
+                    lado e solicite um orçamento sem compromisso.</p>
+            </div>
+            <div>
+                <a data-aos="flip-down" data-aos-duration="500" href="whatsapp://send?phone=5548998656773"
+                    class="btn btn-lg">Entre em contato</a>
+            </div>
+        </div>
+    </div>
+    <!--/contact-->
+
+    <div class="footer text-center container-fluid">
+        <div>
+            <a class="me-4" href="#start">início</a>
+            <a class="me-4" href="#about">conhecimento</a>
+            <a class="me-4" href="#projects">projetos</a>
+            <a href="#contact">contatos</a>
+        </div>
+    </div>
+    <footer>
+        <div class="row container-fluid">
+            <div class="col text-start">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="signature" src="./img/signature.svg" alt="Gabriela Sperb">
+                </a>
+            </div>
+            <div class="icons col text-center">
+                <a href="https://github.com/gbspb" target="_blank" class="me-2"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/gabriela-sperb-17abb9181/" target="_blank" class="me-2"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/gbspb/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="small col text-end copy"><span>Gabriela Sperb | &copy;2023</span>
+            </div>
+        </div>
+    </footer>
+
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--JS Lib Animation-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

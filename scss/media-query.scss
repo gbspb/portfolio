@@ -1,0 +1,139 @@
+@media(max-width: 991px) {
+  .navbar {
+    max-height: 490px;
+
+    .brand {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media(max-width: 896px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 30px 30px;
+
+    .hi {
+      margin-left: 3%;
+
+      h1,
+      h2,
+      p {
+        text-align: center;
+      }
+
+      h1 {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+@media(max-width: 700px) {
+  .contact {
+    flex-direction: column;
+
+
+    .contact-text {
+      h1 #h1smaller {
+        font-size: small;
+      }
+    }
+
+    .btn {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media(max-width: 567px) {
+
+  .container {
+    .hi {
+      .subtitle {
+        font-size: 46px;
+      }
+    }
+  }
+
+  .contact {
+    .h1smaller {
+      font-size: 30px;
+    }
+  }
+
+  footer {
+    .signature {
+      height: 40px;
+    }
+
+    .bi {
+      font-size: 1.1rem;
+    }
+
+    .copy {
+      font-size: 8px;
+    }
+  }
+}
+
+@media(max-width: 425px) {
+  .bg {
+    background-image: none;
+  }
+
+  .category {
+    font-size: 36px;
+  }
+
+  .navbar {
+    .brand {
+      height: 15px;
+    }
+  }
+
+  .container {
+    .hi {
+      .subtitle {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .contact {
+    .h1smaller {
+      font-size: 24px;
+    }
+  }
+
+  .projects {
+
+    .thumb {
+      width: 315px;
+    }
+  }
+
+  .footer {
+    a {
+      font-size: 10px;
+    }
+  }
+
+  footer {
+    .signature {
+      height: 33px;
+    }
+
+    .bi {
+      font-size: 0.7rem;
+    }
+
+    .copy {
+      font-size: 7px;
+    }
+  }
+}
